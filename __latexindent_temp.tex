@@ -1,0 +1,213 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% Jacobs Landscape Poster
+% LaTeX Template
+% Version 1.1 (14/06/14)
+% 
+% Created by:
+% Computational Physics and Biophysics Group, Jacobs University
+% https://teamwork.jacobs-university.de:8443/confluence/display/CoPandBiG/LaTeX+Poster
+% 
+% Further modified by:
+% Nathaniel Johnston (nathaniel@njohnston.ca)
+% 
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+% 
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% ----------------------------------------------------------------------------------------
+% PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+% ----------------------------------------------------------------------------------------
+\documentclass[final]{beamer}
+% \usepackage[scale=1.24]{beamerposter}
+\usepackage[orientation=landscape,size=a0,scale=1.4,debug]{beamerposter}% Use the beamerposter package for laying out the poster
+\usetheme{confposter} % Use the confposter theme supplied with this template
+\setbeamercolor{block title}{fg=ngreen,bg=white} % Colors of the block titles
+\setbeamercolor{block body}{fg=black,bg=white} % Colors of the body of blocks
+\setbeamercolor{block alerted title}{fg=white,bg=pnnl-copper} % Colors of the highlighted block titles
+\setbeamercolor{block alerted body}{fg=black,bg=dblue!10} % Colors of the body of highlighted blocks
+% Many more colors are available for use in beamerthemeconfposter.sty
+% -----------------------------------------------------------
+% Define the column widths and overall poster size
+% To set effective sepwid, onecolwid and twocolwid values, first choose how many columns you want and how much separation you want between columns
+% In this template, the separation width chosen is 0.024 of the paper width and a 4-column layout
+% onecolwid should therefore be (1-(# of columns+1)*sepwid)/# of columns e.g. (1-(4+1)*0.024)/4 = 0.22
+% Set twocolwid to be (2*onecolwid)+sepwid = 0.464
+% Set threecolwid to be (3*onecolwid)+2*sepwid = 0.708
+\newlength{\sepwid}
+\newlength{\onecolwid}
+\newlength{\twocolwid}
+\newlength{\threecolwid}
+\setlength{\paperwidth}{70in} % A0 width: 46.8in
+\setlength{\paperheight}{46in} % A0 height: 33.1in
+\setlength{\sepwid}{0.01\paperwidth} % Separation width (white space) between columns
+\setlength{\onecolwid}{0.23\paperwidth} % Width of one column
+\setlength{\twocolwid}{0.46\paperwidth} % Width of two columns
+\setlength{\threecolwid}{0.708\paperwidth} % Width of three columns
+\setlength{\topmargin}{-1.0in} % Reduce the top margin size
+
+% -----------------------------------------------------------
+\usepackage{graphicx} % Required for including images
+\usepackage{pdfpages}
+\usepackage[export]{adjustbox}
+\usepackage{booktabs} % Top and bottom rules for tables
+% chang
+% \usepackage{mathptmx}% http://ctan.org/pkg/mathptmx
+% \usepackage[format=plain,font=footnotesize, captionlabelfont = plain]{caption}
+\setbeamerfont{caption}{size=\footnotesize}
+\setbeamerfont{caption name}{size=\footnotesize,series=\bfseries}
+\renewcommand{\familydefault}{\rmdefault}
+\usepackage{subcaption}
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{headline}{
+  \leavevmode
+  \begin{columns}
+    \begin{column}{ 1.1 \linewidth}
+      \vskip0.7in
+      % \raggedright
+      \usebeamercolor{title in headline}{\color{white}\Huge{\textbf{\inserttitle}}\\[0.5ex]}
+      \vskip0.1in
+      \usebeamercolor{author in headline}{\color{white}\Large{\insertauthor}\\[0.4ex]}
+      \usebeamercolor{institute in headline}{\color{white}\large{\insertinstitute}\\[0.4ex]}
+      \vskip0.5in
+    \end{column}
+    \vspace{0.5in}
+  \end{columns}
+  \vspace{0.5in}
+  % \hspace{0.5in}\begin{beamercolorbox}[wd=47in,colsep=0.15cm]{cboxb}\end{beamercolorbox}
+  \vspace{0.5in}
+}
+
+
+\setbeamertemplate{background}
+{\includegraphics[width=\paperwidth,keepaspectratio]{figure/header.png}}
+% ----------------------------------------------------------------------------------------
+% TITLE SECTION
+% ----------------------------------------------------------------------------------------
+\title{ \huge{Watershed Delineation On A Hexagonal Mesh Grid}}
+\author{ \Large{ \hspace{0.5in} Chang Liao, Ruby Leung, Yilin Fang, and Teklu Tesfa } }
+\institute[ETH]{
+  \large{ \hspace{0.5in} Pacific Northwest National Laboratory }}
+\date{\today}
+% ----------------------------------------------------------------------------------------
+
+% ----------------------------------------------------------------------------------------
+\begin{document}
+\addtobeamertemplate{block begin}{}{\vspace*{0.2ex}} % White space under blocks
+\addtobeamertemplate{block end}{}{\vspace*{0.5ex}} % White space under blocks
+\addtobeamertemplate{block alerted end}{}{\vspace*{1ex}} % White space under highlighted (alert) blocks
+\setlength{\belowcaptionskip}{1ex} % White space under figures
+\setlength\belowdisplayshortskip{1ex} % White space under equations
+\begin{frame}[t] % The whole poster is enclosed in one beamer frame
+  \begin{columns}[t] % The whole poster consists of three major columns, the second of which is split into two columns twice - the [t] option aligns each column's content to the top
+    \begin{column}{\sepwid}
+    \end{column} % Empty spacer column
+    \begin{column}{\sepwid}
+    \end{column} % Empty spacer column
+    \begin{column}{\onecolwid} % The first column
+      \vspace{2.0in} % The first column within column 2
+      % ----------------------------------------------------------------------------------------
+      % OBJECTIVES
+      % ----------------------------------------------------------------------------------------
+      
+      %\setbeamercolor{block alerted title}{fg=white,bg=pnnl-copper} % Change the alert block title colors
+      %\setbeamercolor{block alerted body}{fg=black,bg=white} % Change the alert block body colors
+      \begin{alertblock}{Objectives}
+        Develop a watershed delineation model using the hexagonal mesh grid.
+      \end{alertblock}
+      % ----------------------------------------------------------------------------------------
+      % INTRODUCTION
+      % ----------------------------------------------------------------------------------------
+      \begin{block}{Introduction}
+        % footnotesize normalsize
+        \normalsize{Spatial discretization is the cornerstone of all spatially-distributed numerical simulations including watershed hydrology. Traditional square grid spatial discretization inevitably suffers from several drawbacks. In this study, we developed a watershed delineation model for the hexagon grid spatial discretization. We applied this model to different types of watershed in the US. Then we evaluated its performance against the traditional method. The comparisons show that results from hexagon grid spatial discretization exhibit many advantages over the tradition method. We suggest spatially distributed hydrological simulation should consider hexagon grid spatial discretization.
+        }
+      \end{block}
+      % ------------------------------------------------
+
+      \begin{block}{Background}
+        Square grid spatial discretization (SGSD) cannot uniformly represent adjacency \citep{DeSousa2006}. In a Cartesian coordinate system, each grid has two types of neighbors (direct and diagonal). The diagonal neighbors are further than the direct ones (Figure \ref{fig:d4d8}). However, these differences are not treated consistently under different circumstances \citep{Esri2011,Henson2013}. 
+
+        \begin{figure}[H]
+          \centering
+          \begin{subfigure}[t]{0.48\textwidth}
+              \centering
+              \includegraphics[width=0.9\linewidth]{figure/d4d8.png}
+              \caption{}
+              \label{fig:d4d8}
+          \end{subfigure}
+           \begin{subfigure}[t]{0.48\textwidth}
+              \centering
+              \includegraphics[width=\linewidth]{figure/island.png}
+              \caption{}
+              \label{fig:island}
+          \end{subfigure}
+          \caption{Illustration of traditional D4 and D8 neighbor definitions and the ``island'' effect due to D4/D8 differences. (a) green and red arrows represent direct and diagonal neighbors, respectively. (b) grid 1 is an isolated island but it's a D8 neighbor of grid 2.}
+          \label{fig:d4d8_island}
+      \end{figure}
+
+      Second, SGSD will create isolated ``island'' due to the differences in D4 and D8 definitions (Figure \ref{fig:island}).
+
+Third, SGSD cannot effectively represent a spherical topology, which will bring significant spatial distortions regardless of Geographic Coordinate Systems (GCS) or Projected Coordinate Systems (PCS) used \cite{Renssen2000,Li2013}.
+               
+      \end{block}
+      % ----------------------------------------------------------------------------------------
+    \end{column} % End of the first column
+    %\begin{column}{\sepwid}
+    %\end{column} % Empty spacer column
+    \begin{column}{\twocolwid}
+      
+      % ----------------------------------------------------------------------------------------
+      % MATERIALS
+      % -----------------------------------------------------------------------------------
+      \begin{figure}
+        \includegraphics[width= 0.78 \textwidth]{figure/cbc900.pdf}
+        \caption{Conceptual structure of the hillslope based soil column drainage model.}
+        \label{fig:hillslope_column}
+      \end{figure}      
+     
+
+    \end{column} % End of column 2.1
+    \begin{column}{\onecolwid}
+    \end{column}
+    
+  
+  \end{columns} % End of all the columns in the poster
+
+  \vspace{0.1in}
+
+  \begin{columns}[t]
+    \begin{column}{\sepwid}
+    \end{column} % Empty spacer column
+    \begin{column}{\sepwid}
+    \end{column} % Empty spacer column
+    \begin{column}{\onecolwid}
+     
+    %\begin{figure}
+      \includegraphics[width=0.4\textwidth,left]{figure/doe.png}    
+    %\end{figure}
+  \end{column}
+    \begin{column}{\sepwid}
+    \end{column} % Empty spacer column  
+   
+    \begin{column}{\twocolwid}
+      \vspace{0.1in}
+      %\begin{figure}
+     
+      %\end{figure}     
+    \end{column}
+
+    \begin{column}{\sepwid}
+    \end{column} % Empty spacer column
+
+    \begin{column}{\onecolwid}
+      
+      \includegraphics[width=0.5\textwidth,right]{figure/pnnl_web.png}
+      
+
+    \end{column}
+  \end{columns}
+\end{frame} % End of the enclosing frame
+\end{document}
