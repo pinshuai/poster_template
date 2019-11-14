@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  13 NOV 2019 17:56
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  13 NOV 2019 18:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/liao313/OneDrive - PNNL/05project/hexwatershed/poster/demo/main.tex"
-(/Users/liao313/OneDrive - PNNL/05project/hexwatershed/poster/demo/main.tex
+**/Users/liao313/workspace/tex/poster/poster_template/main.tex
+(/Users/liao313/workspace/tex/poster/poster_template/main.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1268,31 +1268,31 @@ Package caption Info: Hyperref support is turned off
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 93.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 93.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 92.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 93.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 92.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1332,7 +1332,7 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box65
-Package hyperref Info: Link coloring OFF on input line 93.
+Package hyperref Info: Link coloring OFF on input line 92.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1340,9 +1340,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count190
 )
-LaTeX Info: Redefining \ref on input line 93.
-LaTeX Info: Redefining \pageref on input line 93.
-LaTeX Info: Redefining \nameref on input line 93.
+LaTeX Info: Redefining \ref on input line 92.
+LaTeX Info: Redefining \pageref on input line 92.
+LaTeX Info: Redefining \nameref on input line 92.
  (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -1360,9 +1360,9 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 93.
+LaTeX Info: Redefining \includegraphics on input line 92.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 93.
+LaTeX Info: Redefining \selectfont on input line 92.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
  (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/lscape.sty
@@ -1373,22 +1373,22 @@ Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 99.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (./main.nav)
-LaTeX Font Info:    Calculating math sizes for size <20.16> on input line 93.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 93.
+LaTeX Font Info:    Calculating math sizes for size <20.16> on input line 92.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 92.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 93.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 92.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 93.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 92.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <20.16> not available
-(Font)              size <20.74> substituted on input line 93.
+(Font)              size <20.74> substituted on input line 92.
 
 File: figure/placeholder.jpg Graphic file (type QTm)
 <use  "figure/placeholder.jpg" >
@@ -1396,19 +1396,19 @@ File: figure/placeholder.jpg Graphic file (type QTm)
  <use  "figure/placeholder.jpg" >
 File: figure/placeholder.jpg Graphic file (type QTm)
  <use  "figure/placeholder.jpg" >
-LaTeX Font Info:    Calculating math sizes for size <41.8> on input line 222.
+LaTeX Font Info:    Calculating math sizes for size <41.8> on input line 211.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <41.8> not available
-(Font)              size <24.88> substituted on input line 222.
+(Font)              size <24.88> substituted on input line 211.
 
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <29.25987> not available
-(Font)              size <24.88> substituted on input line 222.
+(Font)              size <24.88> substituted on input line 211.
 
 File: figure/placeholder.jpg Graphic file (type QTm)
 <use  "figure/placeholder.jpg" >
-Overfull \hbox (1627.5049pt too wide) detected at line 222
+Overfull \hbox (1627.5049pt too wide) detected at line 211
 [][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][] 
  []
 
@@ -1418,7 +1418,7 @@ File: figure/placeholder.jpg Graphic file (type QTm)
  <use  "figure/placeholder.jpg" >
 File: figure/pnnl_web.png Graphic file (type QTm)
  <use  "figure/pnnl_web.png" >
-Overfull \hbox (1728.70448pt too wide) detected at line 222
+Overfull \hbox (1728.70448pt too wide) detected at line 211
 [][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][][][] [][][][][][][] 
  []
 
@@ -1440,11 +1440,11 @@ Overfull \hbox (1678.14334pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
  (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 223.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 223.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 212.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 212.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1453,11 +1453,11 @@ LaTeX Font Warning: Size substitutions with differences
  ) 
 Here is how much of TeX's memory you used:
  27427 strings out of 493005
- 512038 string characters out of 6134596
- 613918 words of memory out of 5000000
+ 511996 string characters out of 6134596
+ 613848 words of memory out of 5000000
  30792 multiletter control sequences out of 15000+600000
  67694 words of font info for 63 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 65i,16n,100p,966b,1291s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,16n,100p,950b,1291s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on main.xdv (1 page, 25692 bytes).

@@ -1,10 +1,10 @@
 # Fdb version 3
-["xdvipdfmx"] 1573696568 "main.xdv" "main.pdf" "main" 1573696568
-  "main.xdv" 1573696568 25692 22c5f1fdfdaa37ef0c48271d1d96fe07 "xelatex"
+["xdvipdfmx"] 1573697263 "main.xdv" "main.pdf" "main" 1573697263
+  "main.xdv" 1573697263 25692 c977a63ca4ce008e3db54109e808c926 "xelatex"
   (generated)
   "main.pdf"
-["xelatex"] 1573696567 "/Users/liao313/OneDrive - PNNL/05project/hexwatershed/poster/demo/main.tex" "main.xdv" "main" 1573696568
-  "/Users/liao313/OneDrive - PNNL/05project/hexwatershed/poster/demo/main.tex" 1573696558 11503 4913a65a5e18e1665bd407f2f676c393 ""
+["xelatex"] 1573697262 "/Users/liao313/workspace/tex/poster/poster_template/main.tex" "main.xdv" "main" 1573697263
+  "/Users/liao313/workspace/tex/poster/poster_template/main.tex" 1573696904 11514 ea3f99f8215539ef2a8126148e1d15f7 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1480098689 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1480098698 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -233,15 +233,15 @@
   "figure/header.jpg" 1573696067 60781 13853805063b34bc83ead3a3b2b46eea ""
   "figure/placeholder.jpg" 1573696147 20279 2c3b3984e263aa5f7146ef59d3f89f8c ""
   "figure/pnnl_web.png" 1573696067 96324 005a0c55056c21e21d95b30627e1e8c9 ""
-  "main.aux" 1573696568 2448 db66a3105cba4d09d6f0e2e2c44d4120 ""
-  "main.nav" 1573696568 306 e548e2296d565c181423c2da6216b381 ""
-  "main.out" 1573696567 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "main.tex" 1573696558 11503 4913a65a5e18e1665bd407f2f676c393 ""
+  "main.aux" 1573697263 2448 db66a3105cba4d09d6f0e2e2c44d4120 ""
+  "main.nav" 1573697263 306 e548e2296d565c181423c2da6216b381 ""
+  "main.out" 1573697262 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "main.tex" 1573696904 11514 ea3f99f8215539ef2a8126148e1d15f7 ""
   (generated)
+  "main.out"
   "main.snm"
-  "main.toc"
-  "main.xdv"
   "main.log"
   "main.nav"
+  "main.toc"
   "main.aux"
-  "main.out"
+  "main.xdv"
