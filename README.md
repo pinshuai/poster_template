@@ -1,4 +1,4 @@
-# poster_template
+# Poster Latex Template
 Create a poster with precision
 
 This is just a simple example and template to prepare a poster using Latex.
